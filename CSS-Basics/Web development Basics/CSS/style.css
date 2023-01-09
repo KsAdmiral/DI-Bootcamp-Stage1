@@ -1,0 +1,66 @@
+#box1 {
+  border-style: dashed;
+  background-color: #c0f7d7;
+  font-style: italic;
+  border-color: #27c76b;
+  margin-right: 70%;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+
+#background-blocks {
+  background-color: #c0f7d7;
+  margin-right: 80%;
+  padding-left: 100px;
+  font-size: 0px;
+}
+
+#geeks1 {
+  height: 100px;
+  width: 50px;
+  background: blue;
+  display: inline-block;
+}
+#geeks2 {
+  height: 100px;
+  width: 50px;
+  background: white;
+  display: inline-block;
+}
+#geeks3 {
+  height: 100px;
+  width: 50px;
+  background: red;
+  display: inline-block;
+}
+
+#upperbold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#parent {
+  background-color: gray;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  border: rgb(175, 166, 166) solid;
+}
+
+#orange {
+  background-color: orange;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#blue {
+  background-color: blue;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}

@@ -1,0 +1,102 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg);
+  color: rgb(189, 206, 206);
+  background-size: cover;
+  font-size: 2em;
+}
+
+.title {
+  text-align: center;
+}
+
+.img-caption {
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  width: 30%;
+  min-width: 150px;
+  max-width: 1000px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2%;
+}
+
+.tribute-info {
+  text-align: justify;
+  max-width: 75%;
+  margin: auto;
+}
+
+p {
+  font-size: 21px;
+}
+
+.neo {
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2%;
+}
+
+.p-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  color: white;
+}
+
+.p-container > p {
+  padding-right: 40px;
+}
+
+.item {
+  text-align: center;
+}
+
+.caption {
+  display: block;
+  font-size: 15px;
+  color: white;
+}
+
+.htwo {
+  margin-top: 40px;
+}
+
+.list {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: rgb(0 0 0 / 44%);
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #e3a6a6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+@media all and (max-width: 1024px) {
+  .p-container {
+    display: block;
+    align-items: center;
+    color: white;
+  }
+}

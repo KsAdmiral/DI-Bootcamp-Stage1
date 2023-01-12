@@ -18,21 +18,18 @@ body {
   display: block;
   margin: auto;
   width: 30%;
-  min-width: 150px;
-  max-width: 1000px;
   border-style: solid;
   border-width: 1px;
   border-radius: 2%;
 }
 
 .tribute-info {
-  text-align: justify;
   width: 75%;
   margin: auto;
 }
 
 p {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 .neo {
@@ -45,7 +42,7 @@ p {
 .p-container {
   display: flex;
   align-items: center;
-  background-color: rgb(0 0 0 / 20%);
+  background-color: rgb(0 0 0 / 44%);
   border-radius: 5px;
   color: white;
 }
@@ -61,16 +58,11 @@ p {
 .caption {
   display: block;
   font-size: 15px;
-  color: white;
-}
-
-.htwo {
-  margin-top: 40px;
 }
 
 .list {
   color: white;
-  font-size: 19px;
+  font-size: 21px;
   font-weight: bold;
   background-color: rgb(0 0 0 / 44%);
   border-radius: 5px;
@@ -78,8 +70,6 @@ p {
 
 footer {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
   color: #e3a6a6;
 }
 
